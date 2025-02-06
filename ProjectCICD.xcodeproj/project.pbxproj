@@ -7,55 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		BB18142B2D54C1BE00BCE6B4 /* PBXContainerItemProxy */ = {
+		BB1814642D54CD7900BCE6B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BB8506652D539B270046005E /* Project object */;
+			containerPortal = BB1814452D54CD7600BCE6B4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB85066C2D539B270046005E;
+			remoteGlobalIDString = BB18144C2D54CD7600BCE6B4;
+			remoteInfo = ProjectCICD;
+		};
+		BB18146E2D54CD7900BCE6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1814452D54CD7600BCE6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB18144C2D54CD7600BCE6B4;
 			remoteInfo = ProjectCICD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB1814252D54C1BE00BCE6B4 /* ProjectCICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCICDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB85066D2D539B270046005E /* ProjectCICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB18144D2D54CD7600BCE6B4 /* ProjectCICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1814632D54CD7900BCE6B4 /* ProjectCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB18146D2D54CD7900BCE6B4 /* ProjectCICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCICDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BB85067F2D539B2A0046005E /* Exceptions for "ProjectCICD" folder in "ProjectCICD" target */ = {
+		BB1814752D54CD7900BCE6B4 /* Exceptions for "ProjectCICD" folder in "ProjectCICD" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = BB85066C2D539B270046005E /* ProjectCICD */;
+			target = BB18144C2D54CD7600BCE6B4 /* ProjectCICD */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BB1814262D54C1BE00BCE6B4 /* ProjectCICDUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ProjectCICDUITests;
-			sourceTree = "<group>";
-		};
-		BB85066F2D539B270046005E /* ProjectCICD */ = {
+		BB18144F2D54CD7600BCE6B4 /* ProjectCICD */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BB85067F2D539B2A0046005E /* Exceptions for "ProjectCICD" folder in "ProjectCICD" target */,
+				BB1814752D54CD7900BCE6B4 /* Exceptions for "ProjectCICD" folder in "ProjectCICD" target */,
 			);
 			path = ProjectCICD;
+			sourceTree = "<group>";
+		};
+		BB1814662D54CD7900BCE6B4 /* ProjectCICDTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProjectCICDTests;
+			sourceTree = "<group>";
+		};
+		BB1814702D54CD7900BCE6B4 /* ProjectCICDUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProjectCICDUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB1814222D54C1BE00BCE6B4 /* Frameworks */ = {
+		BB18144A2D54CD7600BCE6B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB85066A2D539B270046005E /* Frameworks */ = {
+		BB1814602D54CD7900BCE6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB18146A2D54CD7900BCE6B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,20 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB8506642D539B270046005E = {
+		BB1814442D54CD7600BCE6B4 = {
 			isa = PBXGroup;
 			children = (
-				BB85066F2D539B270046005E /* ProjectCICD */,
-				BB1814262D54C1BE00BCE6B4 /* ProjectCICDUITests */,
-				BB85066E2D539B270046005E /* Products */,
+				BB18144F2D54CD7600BCE6B4 /* ProjectCICD */,
+				BB1814662D54CD7900BCE6B4 /* ProjectCICDTests */,
+				BB1814702D54CD7900BCE6B4 /* ProjectCICDUITests */,
+				BB18144E2D54CD7600BCE6B4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BB85066E2D539B270046005E /* Products */ = {
+		BB18144E2D54CD7600BCE6B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB85066D2D539B270046005E /* ProjectCICD.app */,
-				BB1814252D54C1BE00BCE6B4 /* ProjectCICDUITests.xctest */,
+				BB18144D2D54CD7600BCE6B4 /* ProjectCICD.app */,
+				BB1814632D54CD7900BCE6B4 /* ProjectCICDTests.xctest */,
+				BB18146D2D54CD7900BCE6B4 /* ProjectCICDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,99 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB1814242D54C1BE00BCE6B4 /* ProjectCICDUITests */ = {
+		BB18144C2D54CD7600BCE6B4 /* ProjectCICD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB18142F2D54C1BE00BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDUITests" */;
+			buildConfigurationList = BB1814762D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICD" */;
 			buildPhases = (
-				BB1814212D54C1BE00BCE6B4 /* Sources */,
-				BB1814222D54C1BE00BCE6B4 /* Frameworks */,
-				BB1814232D54C1BE00BCE6B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB18142C2D54C1BE00BCE6B4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BB1814262D54C1BE00BCE6B4 /* ProjectCICDUITests */,
-			);
-			name = ProjectCICDUITests;
-			packageProductDependencies = (
-			);
-			productName = ProjectCICDUITests;
-			productReference = BB1814252D54C1BE00BCE6B4 /* ProjectCICDUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		BB85066C2D539B270046005E /* ProjectCICD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB8506802D539B2A0046005E /* Build configuration list for PBXNativeTarget "ProjectCICD" */;
-			buildPhases = (
-				BB8506692D539B270046005E /* Sources */,
-				BB85066A2D539B270046005E /* Frameworks */,
-				BB85066B2D539B270046005E /* Resources */,
+				BB1814492D54CD7600BCE6B4 /* Sources */,
+				BB18144A2D54CD7600BCE6B4 /* Frameworks */,
+				BB18144B2D54CD7600BCE6B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BB85066F2D539B270046005E /* ProjectCICD */,
+				BB18144F2D54CD7600BCE6B4 /* ProjectCICD */,
 			);
 			name = ProjectCICD;
 			packageProductDependencies = (
 			);
 			productName = ProjectCICD;
-			productReference = BB85066D2D539B270046005E /* ProjectCICD.app */;
+			productReference = BB18144D2D54CD7600BCE6B4 /* ProjectCICD.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BB1814622D54CD7900BCE6B4 /* ProjectCICDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB18147B2D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDTests" */;
+			buildPhases = (
+				BB18145F2D54CD7900BCE6B4 /* Sources */,
+				BB1814602D54CD7900BCE6B4 /* Frameworks */,
+				BB1814612D54CD7900BCE6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1814652D54CD7900BCE6B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB1814662D54CD7900BCE6B4 /* ProjectCICDTests */,
+			);
+			name = ProjectCICDTests;
+			packageProductDependencies = (
+			);
+			productName = ProjectCICDTests;
+			productReference = BB1814632D54CD7900BCE6B4 /* ProjectCICDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB18146C2D54CD7900BCE6B4 /* ProjectCICDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB18147E2D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDUITests" */;
+			buildPhases = (
+				BB1814692D54CD7900BCE6B4 /* Sources */,
+				BB18146A2D54CD7900BCE6B4 /* Frameworks */,
+				BB18146B2D54CD7900BCE6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB18146F2D54CD7900BCE6B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB1814702D54CD7900BCE6B4 /* ProjectCICDUITests */,
+			);
+			name = ProjectCICDUITests;
+			packageProductDependencies = (
+			);
+			productName = ProjectCICDUITests;
+			productReference = BB18146D2D54CD7900BCE6B4 /* ProjectCICDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB8506652D539B270046005E /* Project object */ = {
+		BB1814452D54CD7600BCE6B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					BB1814242D54C1BE00BCE6B4 = {
+					BB18144C2D54CD7600BCE6B4 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = BB85066C2D539B270046005E;
 					};
-					BB85066C2D539B270046005E = {
+					BB1814622D54CD7900BCE6B4 = {
 						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB18144C2D54CD7600BCE6B4;
+					};
+					BB18146C2D54CD7900BCE6B4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB18144C2D54CD7600BCE6B4;
 					};
 				};
 			};
-			buildConfigurationList = BB8506682D539B270046005E /* Build configuration list for PBXProject "ProjectCICD" */;
+			buildConfigurationList = BB1814482D54CD7600BCE6B4 /* Build configuration list for PBXProject "ProjectCICD" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BB8506642D539B270046005E;
+			mainGroup = BB1814442D54CD7600BCE6B4;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = BB85066E2D539B270046005E /* Products */;
+			productRefGroup = BB18144E2D54CD7600BCE6B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB85066C2D539B270046005E /* ProjectCICD */,
-				BB1814242D54C1BE00BCE6B4 /* ProjectCICDUITests */,
+				BB18144C2D54CD7600BCE6B4 /* ProjectCICD */,
+				BB1814622D54CD7900BCE6B4 /* ProjectCICDTests */,
+				BB18146C2D54CD7900BCE6B4 /* ProjectCICDUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BB1814232D54C1BE00BCE6B4 /* Resources */ = {
+		BB18144B2D54CD7600BCE6B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB85066B2D539B270046005E /* Resources */ = {
+		BB1814612D54CD7900BCE6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB18146B2D54CD7900BCE6B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,14 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB1814212D54C1BE00BCE6B4 /* Sources */ = {
+		BB1814492D54CD7600BCE6B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB8506692D539B270046005E /* Sources */ = {
+		BB18145F2D54CD7900BCE6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1814692D54CD7900BCE6B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,56 +269,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB18142C2D54C1BE00BCE6B4 /* PBXTargetDependency */ = {
+		BB1814652D54CD7900BCE6B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB85066C2D539B270046005E /* ProjectCICD */;
-			targetProxy = BB18142B2D54C1BE00BCE6B4 /* PBXContainerItemProxy */;
+			target = BB18144C2D54CD7600BCE6B4 /* ProjectCICD */;
+			targetProxy = BB1814642D54CD7900BCE6B4 /* PBXContainerItemProxy */;
+		};
+		BB18146F2D54CD7900BCE6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB18144C2D54CD7600BCE6B4 /* ProjectCICD */;
+			targetProxy = BB18146E2D54CD7900BCE6B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BB18142D2D54C1BE00BCE6B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G4S64699X9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProjectCICD;
-			};
-			name = Debug;
-		};
-		BB18142E2D54C1BE00BCE6B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G4S64699X9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProjectCICD;
-			};
-			name = Release;
-		};
-		BB8506812D539B2A0046005E /* Debug */ = {
+		BB1814772D54CD7900BCE6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G4S64699X9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YDUDX23Y8U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectCICD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -267,22 +304,26 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICD;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsolutions.ProjectCICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JbsolutionsDev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BB8506822D539B2A0046005E /* Release */ = {
+		BB1814782D54CD7900BCE6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G4S64699X9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YDUDX23Y8U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectCICD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,15 +336,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICD;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsolutions.ProjectCICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JbsolutionsDev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		BB8506832D539B2A0046005E /* Debug */ = {
+		BB1814792D54CD7900BCE6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		BB8506842D539B2A0046005E /* Release */ = {
+		BB18147A2D54CD7900BCE6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,37 +465,118 @@
 			};
 			name = Release;
 		};
+		BB18147C2D54CD7900BCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4S64699X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectCICD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectCICD";
+			};
+			name = Debug;
+		};
+		BB18147D2D54CD7900BCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4S64699X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectCICD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectCICD";
+			};
+			name = Release;
+		};
+		BB18147F2D54CD7900BCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4S64699X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectCICD;
+			};
+			name = Debug;
+		};
+		BB1814802D54CD7900BCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4S64699X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsulutions.ProjectCICDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectCICD;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB18142F2D54C1BE00BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDUITests" */ = {
+		BB1814482D54CD7600BCE6B4 /* Build configuration list for PBXProject "ProjectCICD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB18142D2D54C1BE00BCE6B4 /* Debug */,
-				BB18142E2D54C1BE00BCE6B4 /* Release */,
+				BB1814792D54CD7900BCE6B4 /* Debug */,
+				BB18147A2D54CD7900BCE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB8506682D539B270046005E /* Build configuration list for PBXProject "ProjectCICD" */ = {
+		BB1814762D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB8506832D539B2A0046005E /* Debug */,
-				BB8506842D539B2A0046005E /* Release */,
+				BB1814772D54CD7900BCE6B4 /* Debug */,
+				BB1814782D54CD7900BCE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB8506802D539B2A0046005E /* Build configuration list for PBXNativeTarget "ProjectCICD" */ = {
+		BB18147B2D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB8506812D539B2A0046005E /* Debug */,
-				BB8506822D539B2A0046005E /* Release */,
+				BB18147C2D54CD7900BCE6B4 /* Debug */,
+				BB18147D2D54CD7900BCE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB18147E2D54CD7900BCE6B4 /* Build configuration list for PBXNativeTarget "ProjectCICDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB18147F2D54CD7900BCE6B4 /* Debug */,
+				BB1814802D54CD7900BCE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB8506652D539B270046005E /* Project object */;
+	rootObject = BB1814452D54CD7600BCE6B4 /* Project object */;
 }
